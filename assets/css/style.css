@@ -317,13 +317,23 @@ body {
 .progress {
   height: 15px;
   margin-bottom: 0;
-  border-radius: 0;
+  border-radius: 50px;
   background-color: #dfdfdf;
   box-shadow: none;
 }
 
 .progress-bar {
-  background-color: #212121;
+  /* background-color: #00a2ff; */
+  background-image: linear-gradient(
+    to right,
+    rgb(164, 166, 167),
+    rgba(0, 0, 0, 0.692)
+  );
+  border-radius: 50px;
+}
+
+.react {
+  background-color: #17ff55;
 }
 
 /* Section: Services */
